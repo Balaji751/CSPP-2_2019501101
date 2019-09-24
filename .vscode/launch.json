@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Sample",
+            "request": "launch",
+            "mainClass": "Sample",
+            "projectName": "CSPP-2_2019501101_574e96b3"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Name",
             "request": "launch",
             "mainClass": "Name"
