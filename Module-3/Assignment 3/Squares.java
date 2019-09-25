@@ -1,0 +1,42 @@
+/**
+ * Given an array of Integers, return an array of the square
+ * of each values in the array. 
+ * 
+ * Input : {1, 2, 3}
+ * Output : {1, 4, 9}
+ * 
+ * @author Siva Sankar
+ * @author Mayank
+ */
+import java.util.Scanner;
+
+public class Squares {
+
+    /**
+     * This method returns the array of ints that are squares of each element
+     * in the input array.
+     * 
+     * @param nums, the input array.
+     * 
+     * @return the array of ints that are squares of each element
+     * in the input array.
+     * 
+     */
+    public static int[] squared(int[] nums) {
+        //  Your code goes here.
+        Scanner s = new Scanner(System.in);
+        int [] arr= new int[nums.length];
+
+            for(int i=0;i<nums.length;i++){
+                arr[i]=nums[i]*nums[i];
+
+            }
+        
+        return arr;
+
+        
+
+        
+        
+    }
+}
