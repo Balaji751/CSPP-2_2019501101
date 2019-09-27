@@ -2,6 +2,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - shifting",
+            "request": "launch",
+            "mainClass": "shifting",
+            "projectName": "CSPP-2_2019501101_574e96b3"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Contact",
+            "request": "launch",
+            "mainClass": "Contact",
+            "projectName": "CSPP-2_2019501101_574e96b3"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Print",
+            "request": "launch",
+            "mainClass": "Print",
+            "projectName": "CSPP-2_2019501101_574e96b3"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Sample",
             "request": "launch",
             "mainClass": "Sample",

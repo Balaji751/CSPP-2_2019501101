@@ -32,10 +32,10 @@ public class MiniMaxSum {
             return a;
         }
         return-1;
-        
+    }    
         
        
-    }
+    
 
     /**
      * This method returns the maximum element in the array.
