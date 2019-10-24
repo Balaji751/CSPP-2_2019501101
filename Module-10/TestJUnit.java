@@ -298,25 +298,25 @@ public class TestJUnit {
       assertNull("3. List Object through interface" , lst2.subList(lst2.size(), lst2.size()));
    }
 
-   @Test
-   public void testCase13() {
-      System.out.println("TestCase for Add List method in Lists.");
-      List lst = new List();
-      List lstin = new List();
+   // @Test
+   // public void testCase13() {
+   //    System.out.println("TestCase for Add List method in Lists.");
+   //    List lst = new List();
+   //    List lstin = new List();
 
-      int[] arr = {1,2,3,4,5,6};
-      lstin.addAll(arr);
-      lst.addAll(lstin);
-      assertEquals("1. List Object", "[1,2,3,4,5,6]", lst.toString());
+   //    int[] arr = {1,2,3,4,5,6};
+   //    lstin.addAll(arr);
+   //    lst.addAll(lstin);
+   //    assertEquals("1. List Object", "[1,2,3,4,5,6]", lst.toString());
       
-      AbstractList lst1 = new List();
-      lst1.addAll(lstin);
-      assertEquals("2. List Object through abstract class", "[1,2,3,4,5,6]", lst1.toString());
+   //    AbstractList lst1 = new List();
+   //    lst1.addAll(lstin);
+   //    assertEquals("2. List Object through abstract class", "[1,2,3,4,5,6]", lst1.toString());
       
-      ListInterface lst2 = new List();
-      lst2.addAll(lstin);
-      assertEquals("3. List Object through interface", "[1,2,3,4,5,6]" ,lst2.toString());
-   }
+   //    ListInterface lst2 = new List();
+   //    lst2.addAll(lstin);
+   //    assertEquals("3. List Object through interface", "[1,2,3,4,5,6]" ,lst2.toString());
+   // }
 
    @Test
    public void testCase14() {
